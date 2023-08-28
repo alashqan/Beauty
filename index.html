@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="icon" href="/img/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Beauty | Homepage</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2><a href="#">BEAUTY</a></h2>
+            <div class="nav-buttons">
+                <ul>
+                    <li><a href="#">Flavor</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <input type="text" placeholder="Search" id="search_bar">
+                <i class="fa-solid fa-magnifying-glass" onclick="show_search_bar()"></i>
+                <i class="fa-solid fa-basket-shopping"></i>
+                <i class="fa-solid fa-user" onclick="show()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="profile" id="profile">
+            <img src="/img/profile.png" alt="profile">
+
+            <div class="profile-links">
+                <p><a href="#">Profile</a></p>
+                <p><a href="#">Orders</a></p>
+                <p><a href="#">Setting</a></p>
+                <p><a href="#">Log out</a></p>
+            </div>
+   
+        </div>
+        <div class="vertical-text">
+            <p>team</p>
+            <p class="p2">packaging</p>
+            <p>production</p>
+        </div>
+        <div class="img-container">
+            <img src="/img/main product1.png" alt="main product">
+        </div>
+        <div class="call-to-action">
+            <h1>sunday<br>rieley</h1>
+            <p>Infused with Botanical Oils, our lightweight facial oil helps reduce the appearance of fatigue for energized, radiant skin. Infused with Sunflower Oil, Ginger Root, and Tamanu Oil extracts, this antioxidant serum makes the skin look fresh and healthy all day!</p>
+            <button>Buy Now | $39.99</button>
+        </div>
+
+        <div class="disapper">
+            <h1>This website can only be viewed in the big Screen</h1>
+        </div>
+    </div>
+
+    <div class="trust-div">
+        <p class="trust-text">Trusted by over 350,000+ Clients <br>
+        worldwide since 2008</p>
+
+        <div class="ratings-container">
+            <div class="rating">
+                <p class="bold">4.6</p>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
+                <p style="color: rgba(0, 0, 0, 0.443);">3,350 Ratings</p>
+            </div>
+            <div class="stats">
+                <p class="bold">6M+</p>
+                <p style="color: rgba(0, 0, 0, 0.443);">Worldwide Product <br> sale per year.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="benefits">
+        <img src="/img/flower.png" alt="">
+        <h2>Our Benefits</h2>
+        <div class="value">
+            <div class="quality" data-aos="fade-up" data-aos-duration="1000">
+                <i class="fa-solid fa-circle-check"></i>
+                <h3>Best Quality</h3>
+                <p>Mean if he they been no hold<br>me. It as much do made took<br>held help</p>
+            </div>
+            <div class="shipping" data-aos="fade-up" data-aos-duration="1800">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Free Shipping</h3>
+                <p>As much do made took held<br> help Lorem ipsum dolor <br>sit amet.</p>
+            </div>
+            <div class="warranty" data-aos="fade-up" data-aos-duration="2600">
+                <i class="fa-solid fa-medal"></i>
+                <h3>Warranty</h3>
+                <p>Delay music in loud boice<br>Beyond genius really enough<br>passed is up</p>
+            </div>  
+        </div>
+    </div>
+
+    <div class="best-selling" id="shop">
+        <h2>Best Selling</h2>
+
+        <div class="products">
+            <div class="product1">
+                <img src="/img/product1.png" alt="product1" class="product_img"> 
+                <h4>GOOD GENES</h4>
+                <p>In built table in and rapid blush,<br>Merits behind warmly.</p>
+                <button class="product_button">Buy Now | $39.99</button>
+            </div>
+            <div class="product2">
+                <img src="/img/product2.png" alt="product2" class="product_img">
+                <h4>FLASH FIX KIT</h4>
+                <p>Blessing welcomed ladyship she<br>met humoured sir bleeding.</p>
+                <button class="product_button">Buy Now | $39.99</button>
+            </div>
+            <div class="product3">
+                <img src="/img/product3.png" alt="product3" class="product_img">
+                <h4>CERAMIC SLIP</h4>
+                <p>Vicinity relation sensible sociable<br>surprised screened as.</p>
+                <button class="product_button">Buy Now | $39.99</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero about-us" id="about-us">
+        <div class="img-container" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000"> 
+            <img src="/img/about.png" alt="about">
+        </div>
+        <div class="call-to-action about-us-text">
+            <h1>About Us</h1>
+            <p>Infused with Botanical Oils, our lightweight facial oil helps reduce the appearance of fatigue for energized, radiant skin. Infused with Sunflower Oil, Ginger Root, and Tamanu Oil extracts, this antioxidant serum makes the skin look fresh and healthy all day!</p>
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimony">
+
+            <div class="testimonial" data-aos="fade-right" data-aos-duration="1400">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Sunt dolores harum autem,<br> temporibus facilis placeat ipsum quasi illo <br>sapiente cumque.</p>
+                <div class="designation">
+                    <img src="/img/Avin.jpeg" alt="Avin">
+                    <p>Avin Den <br> <span>CEO Splash</span></p>
+                </div>
+            </div>
+
+            <div class="testimonial"data-aos="fade-right" data-aos-duration="1900" style="margin: 0 10px;">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Sunt dolores harum autem,<br> temporibus facilis placeat ipsum quasi illo <br>sapiente cumque.</p>
+                <div class="designation">
+                    <img src="/img/Derek.jpeg" alt="derek">
+                    <p>Derek Shah <br> <span>CEO Creature</span></p>
+                </div>
+            </div>    
+
+            <div class="testimonial" data-aos="fade-right" data-aos-duration="2400">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Sunt dolores harum autem,<br> temporibus facilis placeat ipsum quasi illo <br>sapiente cumque.</p>
+                <div class="designation">
+                    <img src="/img/Mery.jpeg" alt="mery">
+                    <p>Mary yu <br> <span>CEO Attract</span></p>
+                </div>
+            </div> 
+
+        </div>
+    </div>
+
+    <div class="newsletter" id="blog" >
+        <img src="/img/newsletter.jpg" alt="" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+        <div class="newsletter-text">
+            <h2>Subscribe Newsletter</h2>
+            <p>Enter your email below for daily updates.</p>
+            <input type="email" name="email" id="email" placeholder="Enter your email.">
+            <button>Get Start</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="tagline" data-aos="fade-up" data-aos-duration="1000">
+            <p>Learn To Love Growth And Change<br>And You Will Be A Success.</p>
+            <div class="socials">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+        </div>
+        
+        <div class="pages" data-aos="fade-up" data-aos-duration="1600">
+            <p>Best Seller</p>
+            <p>Skin Product</p>
+            <p>Beauty Product</p>
+            <p>Track Your Order</p>
+            <p>About Us</p>
+        </div>
+
+        <div class="address" data-aos="fade-up" data-aos-duration="2200">
+            <p><i class="fa-solid fa-location-dot"></i>1256 Newstreet City NW,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suite 36877, Atlanta, GA<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 90675</p>
+            <p><i class="fa-solid fa-phone"></i>+1781292919</p>
+            <p><i class="fa-solid fa-envelope"></i>hello@beauty.com</p>
+        </div>
+
+        <div class="lead" data-aos="fade-up" data-aos-duration="2500">
+            <p>Receive special offer and get our<br>latest updates.</p>
+            <input type="email" placeholder="Enter e-mail">
+            <button>Join</button>
+        </div>
+
+    </div>
+    <footer>
+        <p>The images used in this website are copyright to the respective owner</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

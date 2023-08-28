@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="/img/favicon.jpg">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Beauty | Store</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2><a href="index.html">BEAUTY</a></h2>
+            <div class="nav-buttons">
+                <ul>
+                    <li><a href="#">Flavor</a></li>
+                    <li><a href="#shop">Store</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <input type="text" placeholder="Search" id="search_bar">
+                <i class="fa-solid fa-magnifying-glass" onclick="show_search_bar()"></i>
+                <i class="fa-solid fa-basket-shopping"></i>
+                <i class="fa-solid fa-user" onclick="show()"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Products API - https://fakestoreapi.com/docs    -->
+
+
+
+    <div class="container" id="container">
+        <div class="profile" id="profile">
+            <img src="/img/profile.png" alt="profile">
+
+            <div class="profile-links">
+                <p><a href="#">Profile</a></p>
+                <p><a href="#">Orders</a></p>
+                <p><a href="#">Setting</a></p>
+                <p><a href="#">Log out</a></p>
+            </div>
+        </div>
+
+        <h1 class="store_h1">Shop All</h1>
+
+        <div class="filters">
+            <!-- <input type="text" placeholder="Search"/><button>Search</button>
+            <label for="category">Category </label>
+            <select name="category" id="">
+                <option>All</option> 
+                <option value="jewelery" onselect="open('category','jewelery')">Jwellery</option>
+                <option value="women's clothing">Women's Clothing</option>
+                <option value="electronics">Electronics</option>
+                <option value="men's clothing">Men's Clothing</option>
+            </select> -->
+            <!-- <button onclick="open('category','jewelery')">Jwellery</button> -->
+        </div>
+        <div class="item productss" id="productList" >    
+        </div>
+
+    </div>
+
+    <div class="footer bottomFooter">
+        <div class="tagline" data-aos="fade-up" data-aos-duration="1000">
+            <p>Learn To Love Growth And Change<br>And You Will Be A Success.</p>
+            <div class="socials">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+        </div>
+        
+        <div class="pages" data-aos="fade-up" data-aos-duration="1600">
+            <p>Best Seller</p>
+            <p>Skin Product</p>
+            <p>Beauty Product</p>
+            <p>Track Your Order</p>
+            <p>About Us</p>
+        </div>
+
+        <div class="address" data-aos="fade-up" data-aos-duration="2200">
+            <p><i class="fa-solid fa-location-dot"></i>1256 Newstreet City NW,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suite 36877, Atlanta, GA<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 90675</p>
+            <p><i class="fa-solid fa-phone"></i>+1781292919</p>
+            <p><i class="fa-solid fa-envelope"></i>hello@beauty.com</p>
+        </div>
+
+        <div class="lead" data-aos="fade-up" data-aos-duration="2500">
+            <p>Receive special offer and get our<br>latest updates.</p>
+            <input type="email" placeholder="Enter e-mail">
+            <button>Join</button>
+        </div>
+
+    </div>
+    <footer class="bottomFooter1">
+        <p>The images used in this website are copyright to the respective owner</p>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
